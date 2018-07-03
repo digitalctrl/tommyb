@@ -32,12 +32,12 @@
                             mergeList="{Boolean}true"/>
                     </content-default>
                     <policy_13136060132807
-                        jcr:lastModified="{Date}2018-07-03T09:09:16.921-06:00"
+                        jcr:lastModified="{Date}2018-07-03T14:57:42.063-06:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="TB allowed components"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/foundation/components/carousel,/libs/foundation/components/image,/libs/wcm/foundation/components/responsivegrid,/libs/foundation/components/list,/libs/foundation/components/text,/libs/foundation/components/textimage,/libs/foundation/components/title,/libs/foundation/components/video]">
+                        components="[/libs/foundation/components/carousel,/libs/foundation/components/image,/libs/wcm/foundation/components/responsivegrid,/libs/foundation/components/list,/libs/foundation/components/text,/libs/foundation/components/textimage,/libs/foundation/components/title,/libs/foundation/components/video,/apps/livethelife/components/content/navigation]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_13136060132807>
                     <policy_2447079798657
