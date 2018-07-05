@@ -29,7 +29,19 @@
                 <image
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="livethelife/components/content/image"
-                    fileReference="/content/dam/livethelife/asset.jpg"/>
+                    fileReference="/content/dam/livethelife/asset.jpg">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="3"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            width="12"/>
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            width="6"/>
+                    </cq:responsive>
+                </image>
                 <list
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"

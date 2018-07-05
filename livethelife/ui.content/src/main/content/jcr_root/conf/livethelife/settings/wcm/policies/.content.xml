@@ -8,24 +8,16 @@
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <content-default
                         jcr:description="Policy for editable layout containers"
-                        jcr:lastModified="{Date}2018-07-03T09:32:15.735-06:00"
+                        jcr:lastModified="{Date}2018-07-03T15:20:41.535-06:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="livethelife Default"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        columns="1"
+                        columns="2"
                         components="[group:General,group:livethelife,/apps/livethelife/components/form/container]"
                         policyResourceType="wcm/foundation/components/responsivegrid">
                         <cq:authoring jcr:primaryType="nt:unstructured">
-                            <assetToComponentMapping jcr:primaryType="nt:unstructured">
-                                <image
-                                    jcr:primaryType="nt:unstructured"
-                                    assetGroup="media"
-                                    assetMimetype="image/*"
-                                    droptarget="image"
-                                    resourceType="livethelife/components/content/image"
-                                    type="Images"/>
-                            </assetToComponentMapping>
+                            <assetToComponentMapping jcr:primaryType="nt:unstructured"/>
                         </cq:authoring>
                         <jcr:content
                             jcr:primaryType="nt:unstructured"

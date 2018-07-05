@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:lastModified="{Date}2018-07-03T09:31:26.148-06:00"
+        cq:lastModified="{Date}2018-07-03T15:20:16.618-06:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/livethelife/settings/wcm/templates/landing-page"
         jcr:primaryType="cq:PageContent"
@@ -18,8 +18,8 @@
                 <cq:responsive jcr:primaryType="nt:unstructured">
                     <default
                         jcr:primaryType="nt:unstructured"
-                        offset="1"
-                        width="2"/>
+                        offset="0"
+                        width="1"/>
                 </cq:responsive>
             </responsivegrid>
         </root>

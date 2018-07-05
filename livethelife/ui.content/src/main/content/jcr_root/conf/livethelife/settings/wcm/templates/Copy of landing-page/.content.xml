@@ -2,7 +2,7 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Template">
     <jcr:content
-        cq:lastModified="{Date}2018-07-03T13:22:35.678-06:00"
+        cq:lastModified="{Date}2018-07-03T15:20:16.618-06:00"
         cq:lastModifiedBy="admin"
         cq:templateType="/conf/livethelife/settings/wcm/template-types/empty-page"
         jcr:description="Home page for TB live the life"
