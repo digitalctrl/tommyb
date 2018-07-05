@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <rep:policy/>
+    <wcm jcr:primaryType="nt:unstructured">
+        <foundation jcr:primaryType="nt:unstructured">
+            <components jcr:primaryType="nt:unstructured">
+                <responsivegrid jcr:primaryType="nt:unstructured">
+                    <policy_18434963633898
+                        jcr:description="Policy for editable layout containers"
+                        jcr:lastModified="{Date}2018-07-04T15:46:34.101-06:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Tommy Bahama Default for Experience Fragments"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[group:General,group:Asset Editor,group:Asset Share,group:Columns,group:Component Report,group:ContextHub Segmentation,group:DAM Workflow,group:DRM,group:Tommy.Content,group:WCM Workflow,group:WKND.Content,group:WKND.Content Form,group:WKND.Structure]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:authoring jcr:primaryType="nt:unstructured">
+                            <assetToComponentMapping jcr:primaryType="nt:unstructured">
+                                <mapping_1530737007751
+                                    jcr:primaryType="nt:unstructured"
+                                    assetGroup="media"
+                                    assetMimetype="image/*"
+                                    droptarget="image"
+                                    resourceType="foundation/components/image"/>
+                            </assetToComponentMapping>
+                        </cq:authoring>
+                    </policy_18434963633898>
+                    <content-default
+                        jcr:description="Policy for editable layout containers"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Tommy Bahama Default"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[group: tommyb,/apps/tommyb/components/form/container]"
+                        policyResourceType="wcm/foundation/components/responsivegrid">
+                        <cq:authoring jcr:primaryType="nt:unstructured">
+                            <assetToComponentMapping jcr:primaryType="nt:unstructured">
+                                <image
+                                    jcr:primaryType="nt:unstructured"
+                                    assetGroup="media"
+                                    assetMimetype="image/*"
+                                    droptarget="image"
+                                    resourceType="tommyb/components/content/image"
+                                    type="{Name}Images"/>
+                            </assetToComponentMapping>
+                        </cq:authoring>
+                        <jcr:content
+                            jcr:primaryType="nt:unstructured"
+                            mergeList="{Boolean}true"/>
+                    </content-default>
+                </responsivegrid>
+            </components>
+        </foundation>
+    </wcm>
+    <core
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="nt:unstructured">
+        <wcm
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="nt:unstructured">
+            <components
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="nt:unstructured"/>
+        </wcm>
+    </core>
+</jcr:root>
