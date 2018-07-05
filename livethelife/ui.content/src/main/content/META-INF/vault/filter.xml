@@ -3,4 +3,9 @@
     <filter root="/conf/livethelife"/>
     <filter root="/content/livethelife"/>
     <filter root="/content/dam/livethelife"/>
+    <filter root="/content/tommy-bahama">
+        <include pattern="/content/tommy-bahama(/.*)?"/>
+        <exclude pattern="/content/tommy-bahama/.*"/>
+    </filter>
+    <filter root="/content/experience-fragments" />
 </workspaceFilter>
