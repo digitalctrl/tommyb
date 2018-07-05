@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>livethelife - core clientlibs</comment>
+<entry key="createdBy">cooperhowling</entry>
+<entry key="name">livethelife.core-clientlibs</entry>
+<entry key="created">2018-06-29T13:15:13.632-0600</entry>
+<entry key="groupId">digitalctrl</entry>
+<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">livethelife</entry>
+<entry key="description">core clientlibs package for livethelife</entry>
+<entry key="artifactId">livethelife.core-clientlibs</entry>
+<entry key="path">/etc/packages/livethelife/livethelife.core-clientlibs.zip</entry>
+</properties>

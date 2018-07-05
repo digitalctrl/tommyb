@@ -1,0 +1,7 @@
+digitalctrl/core/filters/LoggingFilter.class
+digitalctrl/core/schedulers/SimpleScheduledTask$Config.class
+digitalctrl/core/package-info.class
+digitalctrl/core/listeners/SimpleResourceListener.class
+digitalctrl/core/schedulers/SimpleScheduledTask.class
+digitalctrl/core/servlets/SimpleServlet.class
+digitalctrl/core/models/HelloWorldModel.class

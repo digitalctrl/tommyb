@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <wcm jcr:primaryType="nt:unstructured">
+        <foundation jcr:primaryType="nt:unstructured">
+            <components jcr:primaryType="nt:unstructured">
+                <responsivegrid jcr:primaryType="nt:unstructured">
+                    <content-default
+                        jcr:description="Policy for editable layout containers"
+                        jcr:lastModified="{Date}2018-07-05T11:41:01.650-06:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="livethelife Default"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        columns="12"
+                        components="[group:General,group:livethelife,/apps/livethelife/components/form/container]"
+                        policyResourceType="wcm/foundation/components/responsivegrid">
+                        <cq:authoring jcr:primaryType="nt:unstructured">
+                            <assetToComponentMapping jcr:primaryType="nt:unstructured"/>
+                        </cq:authoring>
+                        <jcr:content
+                            jcr:primaryType="nt:unstructured"
+                            mergeList="{Boolean}true"/>
+                    </content-default>
+                    <policy_13136060132807
+                        jcr:lastModified="{Date}2018-07-03T14:57:42.063-06:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="TB allowed components"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/libs/foundation/components/carousel,/libs/foundation/components/image,/libs/wcm/foundation/components/responsivegrid,/libs/foundation/components/list,/libs/foundation/components/text,/libs/foundation/components/textimage,/libs/foundation/components/title,/libs/foundation/components/video,/apps/livethelife/components/content/navigation]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_13136060132807>
+                    <policy_2447079798657
+                        jcr:lastModified="{Date}2018-07-03T09:30:23.962-06:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="TB article"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        columns="2"
+                        components="[/libs/cq/experience-fragments/editor/components/experiencefragment,/libs/foundation/components/image,/libs/wcm/foundation/components/responsivegrid,/libs/foundation/components/list,/libs/foundation/components/sitemap,/libs/foundation/components/text,/libs/foundation/components/textimage,/libs/foundation/components/title]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_2447079798657>
+                </responsivegrid>
+            </components>
+        </foundation>
+    </wcm>
+    <livethelife jcr:primaryType="nt:unstructured">
+        <components jcr:primaryType="nt:unstructured">
+            <form jcr:primaryType="nt:unstructured">
+                <container jcr:primaryType="nt:unstructured">
+                    <form-container
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="livethelife Form"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/livethelife/components/form/button,/apps/livethelife/components/form/hidden,/apps/livethelife/components/form/options,/apps/livethelife/components/form/text]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </form-container>
+                </container>
+            </form>
+        </components>
+    </livethelife>
+    <foundation jcr:primaryType="nt:unstructured">
+        <components jcr:primaryType="nt:unstructured">
+            <image jcr:primaryType="nt:unstructured"/>
+            <video jcr:primaryType="nt:unstructured"/>
+            <title jcr:primaryType="nt:unstructured"/>
+            <text jcr:primaryType="nt:unstructured"/>
+        </components>
+    </foundation>
+</jcr:root>

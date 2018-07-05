@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="tommyb.core" />
+        <module name="tommyb.core-clientlibs" />
+        <module name="tommyb.core.config" />
+        <module name="tommyb.it.launcher" />
+        <module name="tommyb.it.tests" />
+        <module name="tommyb.ui.apps" />
+        <module name="tommyb.ui.content" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="tommyb" target="1.8" />
+      <module name="tommyb.core" target="1.8" />
+      <module name="tommyb.core-clientlibs" target="1.8" />
+      <module name="tommyb.core.config" target="1.8" />
+      <module name="tommyb.it.launcher" target="1.8" />
+      <module name="tommyb.it.tests" target="1.8" />
+      <module name="tommyb.ui.apps" target="1.8" />
+      <module name="tommyb.ui.content" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

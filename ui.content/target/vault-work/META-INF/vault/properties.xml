@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>livethelife - UI content</comment>
+<entry key="createdBy">cooperhowling</entry>
+<entry key="name">livethelife.ui.content</entry>
+<entry key="created">2018-06-29T13:15:10.416-0600</entry>
+<entry key="groupId">digitalctrl</entry>
+<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">livethelife</entry>
+<entry key="description">UI content package for livethelife</entry>
+<entry key="artifactId">livethelife.ui.content</entry>
+<entry key="path">/etc/packages/livethelife/livethelife.ui.content.zip</entry>
+</properties>
