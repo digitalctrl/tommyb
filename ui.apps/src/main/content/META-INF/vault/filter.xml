@@ -2,4 +2,8 @@
 <workspaceFilter version="1.0">
     <filter root="/apps/livethelife"/>
     <filter root="/apps/sling" />
+
+    <!-- TB Separated sample for clarity and comparison -->
+    <filter root="/apps/tb"/>
+    <filter root="/etc/clientlibs/tb"
 </workspaceFilter>

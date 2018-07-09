@@ -1,4 +1,11 @@
-./target
+/.idea/*
+/ui.apps/target
+/core/target
+/core.config/target
+/it.launcher/target
+/it.tests/target/*
+/ui.content/target/*
+/ui.core-clientlibs/target/*
 ./.settings
 .project
 .DS_Store
@@ -23,6 +30,7 @@ tmp.xml
 .mine
 .base
 .idea/
+.idea/misc.xml
 .idea/.name
 .idea/workspace.xml
 web/
