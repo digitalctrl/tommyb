@@ -5,5 +5,5 @@
 
     <!-- TB Separated sample for clarity and comparison -->
     <filter root="/apps/tb"/>
-    <filter root="/etc/clientlibs/tb"
+    <filter root="/etc/clientlibs/tb" />
 </workspaceFilter>
