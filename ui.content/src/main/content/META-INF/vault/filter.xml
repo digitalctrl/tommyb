@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="/conf/livethelife"/>
-    <filter root="/content/livethelife"/>
+    <filter root="/conf/tommyb"/>
+    <filter root="/content/tommyb"/>
     <filter root="/content/dam/livethelife"/>
 </workspaceFilter>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Template">
+    <jcr:content
+        cq:lastModified="{Date}2018-07-11T13:00:00.246-06:00"
+        cq:lastModifiedBy="admin"
+        cq:templateType="/libs/settings/wcm/template-types/html5page"
+        jcr:description="Experience Fragment Template for Tommy Bahama products"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="XF Product Template"
+        status="enabled"/>
+</jcr:root>

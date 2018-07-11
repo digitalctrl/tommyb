@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2018-07-11T13:10:17.642-06:00"
+        cq:lastModifiedBy="admin"
+        cq:tags="[]"
+        cq:template="/conf/tommyb/settings/wcm/templates/xf-product-template"
+        cq:xfMasterVariation="{Boolean}true"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Product XF"
+        sling:resourceType="wcm/foundation/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2018-07-11T12:48:08.573-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-07-11T12:48:08.573-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <image
+                    jcr:created="{Date}2018-07-11T12:48:20.987-06:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-07-11T13:01:49.889-06:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/image"
+                    fileReference="/content/dam/tommy/2017/fall/studio_photos_shots/web_selects/D2_W7_TSW41403T.jpg"
+                    height="800"
+                    width="0"/>
+                <text
+                    jcr:created="{Date}2018-07-11T12:57:04.021-06:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-07-11T13:03:09.799-06:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/text"
+                    text="&lt;p style=&quot;text-align: center;&quot;>&lt;b>QUICKSHOP&lt;/b>&lt;/p>&#xa;"
+                    textIsRich="true"/>
+                <text_1862750825
+                    jcr:created="{Date}2018-07-11T12:57:07.649-06:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-07-11T13:05:32.390-06:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/text"
+                    text="&lt;p>&lt;b>NEW&lt;/b> - 2 Piece Bikini&lt;/p>&#xa;"
+                    textIsRich="true"/>
+                <text_1362416946
+                    jcr:created="{Date}2018-07-11T12:57:38.798-06:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-07-11T13:05:59.516-06:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/text"
+                    text="&lt;p>&lt;b>CAD $115.00&lt;/b>&lt;/p>&#xa;"
+                    textIsRich="true"/>
+                <image_1666110685
+                    jcr:created="{Date}2018-07-11T12:57:58.914-06:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-07-11T13:07:43.716-06:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/image"
+                    fileReference="/content/dam/tommy/global/ui/ratings/rating-4_6.gif"
+                    height="65"
+                    width="0"/>
+                <text_659094464
+                    jcr:created="{Date}2018-07-11T12:58:31.490-06:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-07-11T13:10:17.640-06:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/text"
+                    text="&lt;p>(19)&lt;/p>&#xa;"
+                    textIsRich="true"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>
